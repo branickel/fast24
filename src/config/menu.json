@@ -1,0 +1,76 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Blog",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+    {
+      "name": "Categories",
+      "url": "/categories"
+    },
+    {
+      "name": "Tags",
+      "url": "/tags"
+    }
+  ]
+},
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "Affiliate Partners",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "A Life Plus",
+          "url": "/authors"
+        },
+        {
+          "name": "Melrose Health",
+          "url": "/categories"
+        },
+        {
+          "name": "myBrainCo",
+          "url": "/tags"
+        },
+        {
+          "name": "Australian NaturalCare",
+          "url": "/elements"
+        },
+        {
+          "name": "Oil Garden",
+          "url": "/elements"
+        },
+        {
+          "name": "Musashi",
+          "url": "/privacy-policy"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "Privacy Policy",
+      "url": "/privacy-policy"
+    }
+  ]
+}

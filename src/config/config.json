@@ -1,0 +1,35 @@
+{
+  "site": {
+    "title": "Fast 24 | #fasting #nutrition",
+    "base_url": "https://fast24.co.nz",
+    "base_path": "/",
+    "trailing_slash": false,
+    "favicon": "/images/logo.png",
+    "logo": "/images/logo.png",
+    "logo_width": "200",
+    "logo_height": "34",
+    "logo_text": ""
+  },
+
+  "settings": {
+    "pagination": 5,
+    "summary_length": 100
+  },
+
+  "metadata": {
+    "meta_author": "fast24",
+    "meta_image": "/images/og-image.png",
+    "meta_description": "Fast24 website"
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "copyright": "Copyright © 2024 developed by [Fast24](https://fast24.co.nz)"
+  },
+
+  "contactinfo": {
+    "address": "Auckland, New Zealand",
+    "email": "letstalk@fast24.co.nz",
+    "phone": ""
+  }
+}
