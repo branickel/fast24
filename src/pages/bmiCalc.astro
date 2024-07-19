@@ -1,0 +1,81 @@
+---
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import { getEntryBySlug } from "astro:content";
+import { FaAddressCard, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+
+const entry = await getEntryBySlug("pages", "bmi");
+const { Content } = await entry.render();
+const { title, meta_title, description } = entry.data;
+---
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+>
+
+<div class="container mt-20">
+    <h1 set:html={markdownify(title)} class="h2 page-heading" />
+    <form id="bmiForm">
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" name="height" step="0.1" required placeholder="Enter your height">
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" name="weight" step="0.1" required placeholder="Enter your weight">
+        <input type="submit" id="Button" value="Calculate BMI">
+    </form>
+    <div class="result" id="result"></div>
+    <div class="content mt-20">
+        <Content />
+      </div>
+</div>
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('bmiForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            var weight = parseFloat(document.getElementById('weight').value);
+            var height = parseFloat(document.getElementById('height').value) / 100; // convert height to meters
+            
+            if (weight > 0 && height > 0) {
+                var bmi = weight / (height * height);
+                var bmiCategory = '';
+                var resultElement = document.getElementById('result');
+                
+                if (bmi < 18.5) {
+                    bmiCategory = 'Underweight';
+                    resultElement.className = 'result';
+                } else if (bmi >= 18.5 && bmi <= 24.9) {
+                    bmiCategory = 'Normal weight';
+                    resultElement.className = 'result normal';
+                } else if (bmi >= 25 && bmi <= 29.9) {
+                    bmiCategory = 'Overweight';
+                    resultElement.className = 'result overweight';
+                } else {
+                    bmiCategory = 'Obese';
+                    resultElement.className = 'result obese';
+                }
+                
+                resultElement.innerHTML = `<strong>Your BMI:</strong> ${bmi.toFixed(1)} (${bmiCategory})`;
+            } else {
+                alert('Please enter valid values for weight and height.');
+            }
+        });
+    });
+</script>
+</Base>
+<style>
+    .result {
+        margin-top: 10px;
+    }
+    .result.normal {
+        color: green;
+    }
+    .result.overweight {
+        color: orange;
+    }
+    .result.obese {
+        color: red;
+    }
+</style>

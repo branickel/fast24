@@ -8,6 +8,22 @@
       "name": "About",
       "url": "/about"
     },
+
+    {
+      "name": "Tools",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "BMI Calculator",
+          "url": "/bmiCalc"
+        },
+        {
+          "name": "GKI Calculator",
+          "url": "/gkiCalc"
+        }
+      ]
+    },
     {
       "name": "Blog",
       "url": "",
@@ -34,27 +50,35 @@
       "children": [
         {
           "name": "A Life Plus",
-          "url": "/authors"
+          "url": "https://t.cfjump.com/89977/t/88314"
+        },
+        {
+          "name": "AQUAME",
+          "url": "https://t.cfjump.com/89977/t/85674"
         },
         {
           "name": "Melrose Health",
-          "url": "/categories"
+          "url": "https://t.cfjump.com/89977/t/87670"
         },
         {
           "name": "myBrainCo",
-          "url": "/tags"
-        },
-        {
-          "name": "Australian NaturalCare",
-          "url": "/elements"
-        },
-        {
-          "name": "Oil Garden",
-          "url": "/elements"
+          "url": "https://t.cfjump.com/89977/t/88782"
         },
         {
           "name": "Musashi",
-          "url": "/privacy-policy"
+          "url": "https://t.cfjump.com/89977/t/86391"
+        },
+        {
+          "name": "Neat Feat",
+          "url": "https://t.cfjump.com/89977/t/82462 "
+        },
+        {
+          "name": "Oil Garden",
+          "url": "https://t.cfjump.com/89977/t/88017 "
+        },
+        {
+          "name": "waterdrop",
+          "url": "https://t.cfjump.com/89977/t/88403"
         }
       ]
     }

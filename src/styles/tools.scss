@@ -1,0 +1,42 @@
+// Define color variables for easier maintenance
+$primary-color: #007bff;
+$primary-color-hover: #0056b3;
+$underweight-color: #007bff;
+$normal-weight-color: #28a745;
+$overweight-color: #ffc107;
+$obese-color: #dc3545;
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: $primary-color;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: $primary-color-hover;
+  }
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+
+  &.underweight {
+    color: $underweight-color;
+  }
+
+  &.normal {
+    color: $normal-weight-color;
+  }
+
+  &.overweight {
+    color: $overweight-color;
+  }
+
+  &.obese {
+    color: $obese-color;
+  }
+}

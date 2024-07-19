@@ -17,8 +17,8 @@ export default defineConfig({
     service: squooshImageService(),
   },
   integrations: [
-    react(),
-    sitemap(),
+  
+    [mdx(),react(), sitemap(),
     tailwind({
       config: {
         applyBaseStyles: false,
@@ -34,9 +34,10 @@ export default defineConfig({
         "@/shortcodes/Tabs",
         "@/shortcodes/Tab",
       ],
+    
     }),
-    mdx(),
   ],
+],  
   markdown: {
     remarkPlugins: [
       remarkToc,
