@@ -17,8 +17,6 @@ export default defineConfig({
     service: squooshImageService(),
   },
   integrations: [
-  
-    [mdx(),react(), sitemap(),
     tailwind({
       config: {
         applyBaseStyles: false,
@@ -36,6 +34,7 @@ export default defineConfig({
       ],
     
     }),
+    [mdx(),react(), sitemap()
   ],
 ],  
   markdown: {

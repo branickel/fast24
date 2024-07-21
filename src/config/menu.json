@@ -16,11 +16,11 @@
       "children": [
         {
           "name": "BMI Calculator",
-          "url": "/bmiCalc"
+          "url": "/bmi_calculator"
         },
         {
           "name": "GKI Calculator",
-          "url": "/gkiCalc"
+          "url": "/gki_calculator"
         }
       ]
     },

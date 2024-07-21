@@ -168,13 +168,13 @@ declare module 'astro:content' {
   collection: "pages";
   data: InferEntrySchema<"pages">
 } & { render(): Render[".md"] };
-"bmi.mdx": {
-	id: "bmi.mdx";
+"bmi.md": {
+	id: "bmi.md";
   slug: "bmi";
   body: string;
   collection: "pages";
   data: InferEntrySchema<"pages">
-} & { render(): Render[".mdx"] };
+} & { render(): Render[".md"] };
 "contact.md": {
 	id: "contact.md";
   slug: "contact";
@@ -208,6 +208,13 @@ declare module 'astro:content' {
 "-index.md": {
 	id: "-index.md";
   slug: "-index";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"1.md": {
+	id: "1.md";
+  slug: "1";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

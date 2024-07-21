@@ -1,0 +1,144 @@
+---
+import config from "@/config/config.json";
+import Base from "@/layouts/Base.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import { getEntryBySlug } from "astro:content";
+import { FaAddressCard, FaEnvelope, FaPhoneAlt } from "react-icons/fa";
+
+const entry = await getEntryBySlug("pages", "gki");
+const { Content } = await entry.render();
+const { title, meta_title, description } = entry.data;
+---
+
+<Base title={title} meta_title={meta_title} description={description}>
+    <div class="container" id="formContainer">
+        <h1 set:html={markdownify(title)} class="h2 page-heading mt-20" />
+        <form id="gkiForm">
+            <div class="form-group">
+                <div class="rows">
+                    <div class="column">
+                        <label class="theLabels" for="glucose">Glucose:</label>
+                        <input
+                            class="theInputs"
+                            type="number"
+                            id="glucose"
+                            step="any"
+                            placeholder="Enter Glucose level"
+                            required
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="rows">
+                    <div class="column">
+                        <label class="theLabels" for="glucose-unit">Unit:</label
+                        >
+                        <select class="theInputs" id="glucose-unit">
+                            <option value="mmol">mmol/L</option>
+                            <option value="mgdl">mg/dl</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="theLabels" for="ketone">Ketone (mmol/L):</label>
+                <input
+                    class="theInputs"
+                    type="number"
+                    id="ketone"
+                    step="any"
+                    placeholder="Enter Ketone level"
+                    required
+                />
+            </div>
+            <div class="form-group mt-10">
+                <br />
+                <input class="theInputs" type="submit" value="Calculate GKI" />
+            </div>
+        </form>
+                <div class="pt-5" id="result"></div>
+    </div>
+
+    <script type="text/javascript">
+        document
+            .getElementById("gkiForm")
+            .addEventListener("submit", function (e) {
+                e.preventDefault();
+
+                var glucose = parseFloat(
+                    document.getElementById("glucose").value,
+                );
+                var glucoseUnit = document.getElementById("glucose-unit").value;
+                var ketone = parseFloat(
+                    document.getElementById("ketone").value,
+                );
+
+                if (glucoseUnit === "mgdl") {
+                    glucose = glucose / 18; // Convert mg/dl to mmol/L
+                }
+
+                if (ketone <= 0) {
+                    document.getElementById("result").innerHTML =
+                        "Ketone value must be greater than 0.";
+                    return;
+                }
+
+                var gki = glucose / ketone;
+                document.getElementById("result").innerHTML =
+                    "YOUR GKI VALUE = " + gki.toFixed(2);
+            });
+    </script>
+    <style>
+        input[type="button"],
+        input[type="submit"] {
+            display: block;
+            background-color: #01ad9f;
+            border-radius: 10px;
+            border: none;
+            color: white;
+            padding: 16px;
+            text-decoration: none;
+            margin: 2px 2px;
+            cursor: pointer;
+        }
+        #formContainer {
+            width: 80%;
+            margin: auto;
+        }
+        #gkiForm {
+            width: 100%;
+        }
+        .form-group {
+            padding-top: 0%;
+            margin-bottom: 1rem;
+        }
+        .rows {
+            width: 100%;
+            display: block;
+        }
+        .column {
+            width: 100%;
+            display: inline-block;
+        }
+        .theLabels {
+            width: 30%;
+            float: left;
+        }
+        .theInputs {
+            width: 60%;
+            float: right;
+            border-radius: 10px;
+        }
+        #result {
+            font-size: 20px;
+            font-weight: 600;
+            width: 100%;
+            float:inherit;
+        }
+    </style>
+
+    <div class="container content mt-20">
+        <Content />
+    </div>
+</Base>

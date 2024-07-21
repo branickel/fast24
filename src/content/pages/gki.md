@@ -5,17 +5,17 @@ description: "Simple GKI Calculator"
 draft: false
 ---
 
-GKI Ranges:
+#### GKI Ranges:
 
-GKI < 1: High therapeutic ketosis
+**GKI** < 1: High therapeutic ketosis
 
-1 <= GKI < 3: Moderate therapeutic ketosis
+1 <= **GKI** < 3: Moderate therapeutic ketosis
 
-3 <= GKI < 6: Low therapeutic ketosis
+3 <= **GKI** < 6: Low therapeutic ketosis
 
-6 <= GKI < 9: Low level of ketosis
+6 <= **GKI** < 9: Low level of ketosis
 
-GKI > 9: No ketosis
+**GKI** > 9: No ketosis
 
 ---
 
