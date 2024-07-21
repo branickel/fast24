@@ -10,13 +10,14 @@ import config from "./src/config/config.json";
 
 // https://astro.build/config
 export default defineConfig({
-  site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
+  site: config.site.base_url ? config.site.base_url : "https://fast24.co.nz",
   base: config.site.base_path ? config.site.base_path : "/",
   trailingSlash: config.site.trailing_slash ? "always" : "never",
   image: {
     service: squooshImageService(),
   },
   integrations: [
+    react(),
     tailwind({
       config: {
         applyBaseStyles: false,
@@ -32,11 +33,10 @@ export default defineConfig({
         "@/shortcodes/Tabs",
         "@/shortcodes/Tab",
       ],
-    
     }),
-    [mdx(),react(), sitemap()
+    mdx(),
+    sitemap(),
   ],
-],  
   markdown: {
     remarkPlugins: [
       remarkToc,

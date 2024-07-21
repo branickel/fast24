@@ -212,13 +212,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"1.md": {
-	id: "1.md";
-  slug: "1";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "can-you-have-beer-or-wine-on-keto-the-intoxicating-truth-about-keto-and-alcohol.md": {
 	id: "can-you-have-beer-or-wine-on-keto-the-intoxicating-truth-about-keto-and-alcohol.md";
   slug: "can-you-have-beer-or-wine-on-keto-the-intoxicating-truth-about-keto-and-alcohol";
@@ -229,6 +222,13 @@ declare module 'astro:content' {
 "easy-steps-for-transitioning-from-a-high-to-a-low-carb-diet.md": {
 	id: "easy-steps-for-transitioning-from-a-high-to-a-low-carb-diet.md";
   slug: "easy-steps-for-transitioning-from-a-high-to-a-low-carb-diet";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"keto-food-faves-whats-in-out-booze-too.md": {
+	id: "keto-food-faves-whats-in-out-booze-too.md";
+  slug: "keto-food-faves-whats-in-out-booze-too";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">

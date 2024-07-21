@@ -2,7 +2,7 @@
 title: "Keto Food Faves: What's In & Out, Booze too!"
 description: "Keto Food Faves: What's In & Out, Booze too!"
 date: 2022-04-01T05:00:00Z
-image: "/images/posts/keto_food_favs.webp"
+image: "/images/posts/keto_food.webp"
 categories: ["body", "diet"]
 authors: ["Ben"]
 tags: ["keto", "ketone", "low-carb"]
