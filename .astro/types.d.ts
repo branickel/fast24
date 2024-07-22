@@ -233,6 +233,27 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"low-carb-sprout-about-town-4-quick-recipes.md": {
+	id: "low-carb-sprout-about-town-4-quick-recipes.md";
+  slug: "low-carb-sprout-about-town-4-quick-recipes";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"recepies/-index.md": {
+	id: "recepies/-index.md";
+  slug: "recepies/-index";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"recepies/roasted-brussel-sprouts-with-bacon.md": {
+	id: "recepies/roasted-brussel-sprouts-with-bacon.md";
+  slug: "recepies/roasted-brussel-sprouts-with-bacon";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "the-great-beer-debate-sorting-fact-from-froth-trans-tasman-style.md": {
 	id: "the-great-beer-debate-sorting-fact-from-froth-trans-tasman-style.md";
   slug: "the-great-beer-debate-sorting-fact-from-froth-trans-tasman-style";
