@@ -1,33 +1,28 @@
 import React, { useState } from 'react';
 import '../../styles/gkiCalculator.scss';
 
-const GkiCalculator: React.FC = () => {
-  const [glucose, setGlucose] = useState<string>('');
-  const [glucoseUnit, setGlucoseUnit] = useState<string>('mmol');
-  const [ketone, setKetone] = useState<string>('');
-  const [result, setResult] = useState<string>('');
-
-  const calculateGKI = () => {
-    let glucoseValue = parseFloat(glucose);
-    const ketoneValue = parseFloat(ketone);
-
-    if (isNaN(glucoseValue) || isNaN(ketoneValue) || ketoneValue <= 0) {
+  const GkiCalculator: React.FC = () => {
+    const [glucose, setGlucose] = useState<string>('');
+    const [glucoseUnit, setGlucoseUnit] = useState<string>('mmol');
+    const [ketone, setKetone] = useState<string>('');
+    const [result, setResult] = useState<string>('');
+  
+    const calculateGKI = (e: React.FormEvent) => {
+      e.preventDefault();
+  
+      const glucoseValue = parseFloat(glucose);
+      const ketoneValue = parseFloat(ketone);
+  
+      if (isNaN(glucoseValue) || isNaN(ketoneValue) || ketoneValue <= 0) {
         setResult('Please enter valid values for glucose and ketone, and ensure ketone is greater than 0.');
         return;
       }
-      
-    if (glucoseUnit === 'mgdl') {
-      glucoseValue = glucoseValue / 18; // Convert mg/dl to mmol/L
-    }
-
-    if (ketoneValue <= 0) {
-      setResult('Ketone value must be greater than 0.');
-      return;
-    }
-
-    const gki = glucoseValue / ketoneValue;
-    setResult(`GKI: ${gki.toFixed(2)}`);
-  };
+  
+      const convertedGlucose = glucoseUnit === 'mgdl' ? glucoseValue / 18 : glucoseValue;
+      const gki = convertedGlucose / ketoneValue;
+  
+      setResult(`GKI: ${gki.toFixed(2)}`);
+    };
 
   return (
     <div className="container">
