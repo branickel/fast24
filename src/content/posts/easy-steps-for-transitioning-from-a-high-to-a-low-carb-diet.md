@@ -42,4 +42,5 @@ I'm considering chatting with a nutritionist or doctor before I make any big cha
 By following these steps, I hope to make the switch to low carb and intermittent fasting as smooth as possible, minimise hunger pangs and discomfort, and maybe even become fat-adapted quicker. But everyone's body is different, so listening to mine and making adjustments is crucial.
 
 
-**Disclaimer:** This information is for informational purposes only and is not intended to be a substitute for professional medical advice. It's important to consult with your doctor before starting any new diet, including keto, especially if you have any underlying health conditions. They can advise you on whether keto is right for you and help you create a safe and effective plan. 
+#### Disclaimer:
+This information is for informational purposes only and is not intended to be a substitute for professional medical advice. It's important to consult with your doctor before starting any new diet, including keto, especially if you have any underlying health conditions. They can advise you on whether keto is right for you and help you create a safe and effective plan. 

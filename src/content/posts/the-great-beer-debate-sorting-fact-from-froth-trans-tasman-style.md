@@ -73,4 +73,5 @@ Remember, beer is just one piece of the puzzle. Here are some additional factors
 ### The Bottom Line
 There's no single "best" beer for everyone. Understanding the effects of each type allows you to make informed choices that align with your health goals and lifestyle. Whether you're a social drinker, a health nut, or someone managing weight, there's a beer option (or the option of no beer at all) that can fit your needs. Remember, a healthy lifestyle goes beyond just the beverage in your hand. Prioritize a balanced diet, regular exercise, and responsible consumption for a truly fulfilling experience.
 
-**Disclaimer:** This blog is for informational purposes only and should not be taken as medical advice. Always consult with a healthcare professional before making any changes to your diet or alcohol consumption habits.
+#### Disclaimer:
+This blog is for informational purposes only and should not be taken as medical advice. Always consult with a healthcare professional before making any changes to your diet or alcohol consumption habits.

@@ -3,7 +3,7 @@ title: "The Relationship Between Low-Carb Diets and Fasting: Impacts on Insulin 
 description: "The Relationship Between Low-Carb Diets and Fasting: Impacts on Insulin and Cortisol"
 date: 2022-04-01T05:00:00Z
 image: "/images/posts/insulin_cortisol.webp"
-categories: ["body", "diets"]
+categories: ["body", "diet"]
 authors: ["Ben"]
 tags: ["low-carb", "fasting", "insulin", "cortisol"]
 draft: false
@@ -72,3 +72,6 @@ Keep vibing, stay healthy, and remember: your journey is unique. Cheers to explo
 7. Ludwig, D. S., & Ebbeling, C. B. (2018). "The Carbohydrate-Insulin Model of Obesity: Beyond ‘Calories In, Calories Out’." JAMA Internal Medicine. [Link](https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/2674001)
 8. Patterson, R. E., et al. (2015). "Metabolic effects of intermittent fasting." Annual Review of Nutrition. [Link](https://pubmed.ncbi.nlm.nih.gov/25974672/)
 9. Longo, V. D., & Mattson, M. P. (2014). "Fasting: Molecular Mechanisms and Clinical Applications." Cell Metabolism. [Link](https://www.cell.com/cell-metabolism/fulltext/S1550-4131(14)00244-2)
+
+#### Disclaimer:
+This information is for informational purposes only and is not intended to be a substitute for professional medical advice. It's important to consult with your doctor before starting any new diet, including keto, especially if you have any underlying health conditions. 

@@ -180,4 +180,5 @@ The Ketogenic diet emphasizes high-fat, moderate-protein, and low-carbohydrate i
 7. Basu, A., Rhone, M., & Lyons, T. J. (2010). Berries: emerging impact on cardiovascular health. Nutrition Reviews, 68(3), 168-177.
 8. Volek, J. S., & Phinney, S. D. (2012). The Art and Science of Low Carbohydrate Performance. Beyond Obesity LLC.
 
-**Disclaimer:** This information is for informational purposes only and is not intended to be a substitute for professional medical advice. Always consult with your doctor or healthcare provider before adding new supplements to your routine.
+#### Disclaimer: 
+This information is for informational purposes only and is not intended to be a substitute for professional medical advice. Always consult with your doctor or healthcare provider before adding new supplements to your routine.

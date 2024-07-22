@@ -14,8 +14,6 @@ Hey there, foodies! 🌱 Ready to embark on a low-carb culinary adventure? Wheth
 
 ![Roasted Brussels Sprouts with Bacon](public/images/posts/roasted-brussel-sprouts.webp)
 
-
-
 **Ingredients:**
 - 450 grams Brussels sprouts, halved: 28g net carbs
 - 4 slices of bacon, chopped: 0g net carbs

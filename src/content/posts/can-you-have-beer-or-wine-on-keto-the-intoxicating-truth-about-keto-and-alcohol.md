@@ -56,4 +56,5 @@ If you do decide to have a drink on keto, here are some tips for minimizing the 
 
 So, there you have it! You can definitely still catch up with mates and enjoy a drink while following keto. Just be mindful of what you choose, keep it in moderation, and prioritize your health by consulting with your doctor.
 
-**Disclaimer:** This information is for informational purposes only and is not intended to be a substitute for professional medical advice. It's important to consult with your doctor before starting any new diet, including keto, especially if you have any underlying health conditions. They can advise you on whether keto is right for you and help you create a safe and effective plan. Additionally, it's important to be aware of how alcohol can interact with medications and discuss any concerns with your doctor.
+#### Disclaimer:
+This information is for informational purposes only and is not intended to be a substitute for professional medical advice. It's important to consult with your doctor before starting any new diet, including keto, especially if you have any underlying health conditions. They can advise you on whether keto is right for you and help you create a safe and effective plan. Additionally, it's important to be aware of how alcohol can interact with medications and discuss any concerns with your doctor.

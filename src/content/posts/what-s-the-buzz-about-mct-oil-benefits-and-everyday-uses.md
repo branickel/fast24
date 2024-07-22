@@ -40,4 +40,5 @@ MCT oil's a ripper ingredient you can chuck in your everyday:
 
 MCT oil's a handy addition to your diet, whether you want an energy boost, smash your workouts, or just chuck in some extra health benefits to your meals. Give it a go and see how it goes! But remember, always have a chat with your doctor before starting any new supplements.
 
-**Disclaimer:** This information is for informational purposes only and is not intended to be a substitute for professional medical advice. Always consult with your doctor or healthcare provider before adding new supplements to your routine.
+#### Disclaimer:
+This information is for informational purposes only and is not intended to be a substitute for professional medical advice. Always consult with your doctor or healthcare provider before adding new supplements to your routine.

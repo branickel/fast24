@@ -233,6 +233,20 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"keto-tales-avocados-donuts-and-bacon.md": {
+	id: "keto-tales-avocados-donuts-and-bacon.md";
+  slug: "keto-tales-avocados-donuts-and-bacon";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"low-carb-keto-smoothie.md": {
+	id: "low-carb-keto-smoothie.md";
+  slug: "low-carb-keto-smoothie";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "low-carb-sprout-about-town-4-quick-recipes.md": {
 	id: "low-carb-sprout-about-town-4-quick-recipes.md";
   slug: "low-carb-sprout-about-town-4-quick-recipes";
@@ -240,16 +254,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"recepies/-index.md": {
-	id: "recepies/-index.md";
-  slug: "recepies/-index";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"recepies/roasted-brussel-sprouts-with-bacon.md": {
-	id: "recepies/roasted-brussel-sprouts-with-bacon.md";
-  slug: "recepies/roasted-brussel-sprouts-with-bacon";
+"taming-stubborn-belly-fat-guide-battling-visceral-fat.md": {
+	id: "taming-stubborn-belly-fat-guide-battling-visceral-fat.md";
+  slug: "taming-stubborn-belly-fat-guide-battling-visceral-fat";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -271,6 +278,13 @@ declare module 'astro:content' {
 "what-s-the-buzz-about-mct-oil-benefits-and-everyday-uses.md": {
 	id: "what-s-the-buzz-about-mct-oil-benefits-and-everyday-uses.md";
   slug: "what-s-the-buzz-about-mct-oil-benefits-and-everyday-uses";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"world-of-intermittent-fasting.md": {
+	id: "world-of-intermittent-fasting.md";
+  slug: "world-of-intermittent-fasting";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
