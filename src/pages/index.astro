@@ -13,23 +13,6 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination);
 ---
 
 <Base>
-  <head>
-    <link rel="sitemap" href="/sitemap-index.xml" />
-    <meta name="google-adsense-account" content="ca-pub-3682062436758751" />
-  </head>
-  <body>
-    <!-- Google Tag Manager (noscript) -->
-<noscript>
-  <iframe
-    src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
-    height="0"
-    width="0"
-    style="display:none;visibility:hidden"
-  >
-  </iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-  </body>
   <section class="section">
     <div class="container">
       <Posts posts={currentPosts} className="mb-16" />
