@@ -5,7 +5,7 @@ date: 2024-07-23T05:00:00Z
 image: "/images/posts/different-intermittent-fasting.webp"
 categories: ["fasting"]
 authors: ["Ben"]
-tags: ["16/8", "5:2", "2omad", "omad", "12:12", "warrior"]
+tags: ["omad", "time-restricted"]
 draft: false
 ---
 Intermittent fasting (IF) is like a dance between feasting and fasting. It’s a flexible approach that alternates between periods of eating and not eating, each with its own rhythm and style. Here’s a fun guide to some popular ways you can give IF a whirl:
