@@ -98,6 +98,10 @@ Autophagy might sound like a big, fancy word, but it’s basically your body’s
 5. **Watch Portions**
    - Gradually increase meal sizes over a few days to let your body adjust.
 
+### Yoshinori Ohsumi’s Groundbreaking Research
+
+Yoshinori Ohsumi, who won the Nobel Prize in Physiology or Medicine in 2016, made major strides in understanding autophagy. His research uncovered how cells recycle their components through this process and how it helps maintain cellular health. Ohsumi’s work has shed light on the mechanisms behind autophagy, highlighting its crucial role in various aspects of health, including aging, immunity, and disease prevention. His discoveries have paved the way for new insights into how autophagy can be harnessed to improve overall well-being.
+
 **For the Science Buffs**
 
 ### If you’re interested in diving deeper, here are some research articles on autophagy:
@@ -111,3 +115,6 @@ Autophagy might sound like a big, fancy word, but it’s basically your body’s
 ### Wrapping It Up
 
 Autophagy is a fantastic process with many health perks, from cell regeneration to disease prevention. Understanding how to safely trigger and manage autophagy can help you reap its benefits while avoiding potential downsides. And remember, always check with a healthcare professional before making big changes to your diet or lifestyle, especially if you have existing health issues.
+
+#### Disclaimer:
+This information is for informational purposes only and is not intended to be a substitute for professional medical advice. It's important to consult with your doctor before starting any new diet, including keto, especially if you have any underlying health conditions. 
