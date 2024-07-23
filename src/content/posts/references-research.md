@@ -3,9 +3,9 @@ title: "References & Research"
 description: "A library of reference material and channels"
 date: 2022-04-01T05:00:00Z
 image: "/images/posts/cells.webp"
-categories: ["References"]
+categories: ["References", "Research"]
 authors: ["Ben"]
-tags: ["articles", "youtube", "websites"]
+tags: ["drJasonFung", "drEricBerg", "drStenEkberg", "drMindyPelz", "YoshinoriOhsumi" ]
 draft: false
 ---
 ### YouTube channels and Research Resources
