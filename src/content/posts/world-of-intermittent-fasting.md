@@ -8,10 +8,6 @@ authors: ["Ben"]
 tags: ["16/8", "5:2", "2omad", "omad", "12:12", "warrior"]
 draft: false
 ---
-Here’s a lighter, more inspiring rewrite with metric measurements:
-
----
-
 Intermittent fasting (IF) is like a dance between feasting and fasting. It’s a flexible approach that alternates between periods of eating and not eating, each with its own rhythm and style. Here’s a fun guide to some popular ways you can give IF a whirl:
 
 1. **16/8 Method**  
