@@ -11,19 +11,19 @@ draft: false
 ### YouTube channels and Research Resources
 
 #### Dr Jason Fung:
-![dr jason fung youtube channel image](image-1.png)
+![dr jason fung youtube channel image](public/images/references/dr-jason-fung.webp)
 https://www.youtube.com/@drjasonfung
 
 #### Dr Eric Berg:
-![dr eric berg youtube channel image](image.png)
+![dr eric berg youtube channel image](public/images/references/dr-eric-berg.webp)
 https://www.youtube.com/@Drberg
 
 #### Dr Sten Ekberg:
-![dr sten ekberg youtube channel image](image-2.png)
+![dr sten ekberg youtube channel image](public/images/references/dr-sten-ekberg.webp)
 https://www.youtube.com/@drekberg
 
 #### Dr Mindy Pelz:
-![dr mindy pelz youtube channel image](image-3.png)
+![dr mindy pelz youtube channel image](public/images/references/dr-mindy-pelz.webp)
 https://www.youtube.com/@DrMindyPelz
 
 #### Yoshinori Ohsumi (Ph.D), 
