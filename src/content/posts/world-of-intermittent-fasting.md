@@ -1,7 +1,7 @@
 ---
 title: "Exploring the World of Intermittent Fasting"
 description: "Exploring the World of Intermittent Fasting"
-date: 2022-04-01T05:00:00Z
+date: 2024-07-23T05:00:00Z
 image: "/images/posts/different-intermittent-fasting.webp"
 categories: ["fasting"]
 authors: ["Ben"]

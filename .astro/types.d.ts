@@ -226,6 +226,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"getting-to-know-autophagy-what-it-is-why-it-matters-how-to-try-it.md": {
+	id: "getting-to-know-autophagy-what-it-is-why-it-matters-how-to-try-it.md";
+  slug: "getting-to-know-autophagy-what-it-is-why-it-matters-how-to-try-it";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "keto-food-faves-whats-in-out-booze-too.md": {
 	id: "keto-food-faves-whats-in-out-booze-too.md";
   slug: "keto-food-faves-whats-in-out-booze-too";
@@ -250,6 +257,13 @@ declare module 'astro:content' {
 "low-carb-sprout-about-town-4-quick-recipes.md": {
 	id: "low-carb-sprout-about-town-4-quick-recipes.md";
   slug: "low-carb-sprout-about-town-4-quick-recipes";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"references-research.md": {
+	id: "references-research.md";
+  slug: "references-research";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
