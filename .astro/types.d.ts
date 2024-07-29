@@ -212,6 +212,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"120-hours-water-fast-journey.md": {
+	id: "120-hours-water-fast-journey.md";
+  slug: "120-hours-water-fast-journey";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
 "can-you-have-beer-or-wine-on-keto-the-intoxicating-truth-about-keto-and-alcohol.md": {
 	id: "can-you-have-beer-or-wine-on-keto-the-intoxicating-truth-about-keto-and-alcohol.md";
   slug: "can-you-have-beer-or-wine-on-keto-the-intoxicating-truth-about-keto-and-alcohol";
