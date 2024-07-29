@@ -1,0 +1,33 @@
+---
+import { Image } from "astro:assets";
+import Base from "@/layouts/Base.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import { getEntryBySlug } from "astro:content";
+import Button from "@/shortcodes/Button";
+import Card from "@/components/Card.astro";
+
+const entry = await getEntryBySlug("products", "index");
+const { Content } = await entry.render();
+const { title, description, meta_title, products } = entry.data;
+---
+
+<Base title={title} meta_title={meta_title}>
+  <div class="container" id="formContainer">
+    <h1 set:html={markdownify(title)} class="h2 page-heading mt-20" />
+  </div>
+  <section
+    class="mx-10 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 justify-items-center justify-center gap-y-20 gap-x-10 mt-10 mb-5">
+          {
+            products.items.map((item: any) => (
+              <Card title={item.title} image={item.image} url={item.url} />
+            ))
+          }
+        </div>
+      </div>
+  </section>
+  <div class="flex mt-10">
+    <div class="m-auto">
+      <Button label="View more on Etsy" link="https://fast24nutrition.etsy.com"/>
+    </div>
+  </div>
+</Base>
