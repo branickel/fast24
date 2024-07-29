@@ -48,6 +48,7 @@ const pagesCollection = defineCollection({
   }),
 });
 
+
 // Export collections
 export const collections = {
   posts: postsCollection,
