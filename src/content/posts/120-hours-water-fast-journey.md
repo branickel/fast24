@@ -2,7 +2,7 @@
 title: "120 Hours and Counting: My Water Fast Journey"
 description: "120 Hours and Counting: My Water Fast Journey"
 date: 2024-07-30T05:00:00Z
-image: "/images/posts/120-hours-and-counting-my-water-fast-journey.webp"
+image: "/images/posts/fasting/120-hours-and-counting-my-water-fast-journey.webp"
 categories: ["body", "diet", "fasting"]
 authors: ["Ben"]
 tags: ["autophagy", "ketone", "fasting", "prolonged fasting"]
