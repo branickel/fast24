@@ -50,45 +50,6 @@
     {
       "name": "Contact",
       "url": "/contact"
-    },
-    {
-      "name": "Affiliate Partners",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "A Life Plus",
-          "url": "https://t.cfjump.com/89977/t/88314"
-        },
-        {
-          "name": "AQUAME",
-          "url": "https://t.cfjump.com/89977/t/85674"
-        },
-        {
-          "name": "Melrose Health",
-          "url": "https://t.cfjump.com/89977/t/87670"
-        },
-        {
-          "name": "myBrainCo",
-          "url": "https://t.cfjump.com/89977/t/88782"
-        },
-        {
-          "name": "Musashi",
-          "url": "https://t.cfjump.com/89977/t/86391"
-        },
-        {
-          "name": "Neat Feat",
-          "url": "https://t.cfjump.com/89977/t/82462 "
-        },
-        {
-          "name": "Oil Garden",
-          "url": "https://t.cfjump.com/89977/t/88017 "
-        },
-        {
-          "name": "waterdrop",
-          "url": "https://t.cfjump.com/89977/t/88403"
-        }
-      ]
     }
   ],
   "footer": [
