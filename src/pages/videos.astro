@@ -1,0 +1,24 @@
+---
+import VideoPlayer from "@/components/VideoPlayer.astro";
+import Base from "@/layouts/Base.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import { getEntryBySlug } from "astro:content";
+
+const entry = await getEntryBySlug("videos", "index");
+const { title, meta_title, videos } = entry.data;
+---
+
+<Base title={title} meta_title={meta_title}>
+  <div class="container" id="formContainer">
+    <h1 set:html={markdownify(title)} class="h2 page-heading mt-20" />
+  </div>
+
+  <section
+    class="mx-10 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 justify-items-center justify-center gap-y-20 gap-x-10 mt-10 mb-5">
+    {
+      videos.items.map((item: any) => (
+        <VideoPlayer id={item.id} title={item.title}/>
+      ))
+    }
+  </section>
+</Base>
