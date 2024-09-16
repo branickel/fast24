@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Fast24 | #fasting #nutrition",
+    "title": "Fast24 | #fasting #nutrition #carnivore #ketovore #Keto",
     "base_url": "https://fast24.co.nz",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.ico",
-    "logo": "/images/logo.webp",
-    "logo_width": "160",
-    "logo_height": "34",
-    "logo_text": "Fast24 | #carnivore #ketovore #fasting"
+    "favicon": "/images/logo.svg",
+    "logo": "/images/logo.svg",
+    "logo_width": "150",
+    "logo_height": "150",
+    "logo_text": "Fast24 | #fasting"
   },
 
   "settings": {
